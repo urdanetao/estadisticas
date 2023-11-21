@@ -1,0 +1,19 @@
+
+.addDetalleCompetenciaButtons button {
+    width: 80px;
+}
+
+.detalleCompetenciaBody [name="nomcab"],
+.detalleCompetenciaBody [name="nomjin"],
+.detalleCompetenciaBody [name="nomprep"] {
+    width: 250px;
+}
+
+.detalleCompetenciaBody [name="pesojin"],
+.detalleCompetenciaBody [name="puntos"] {
+    width: 62px;
+}
+
+.detalleCompetenciaBody [name="efectividadjin"] {
+    width: 35px;
+}

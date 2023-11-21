@@ -1,0 +1,11 @@
+
+.testBody {
+    width: 100%;
+    height: calc(100vh - 85px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.testBody [name="nombre"] {
+    width: 250px;
+}

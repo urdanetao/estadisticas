@@ -1,0 +1,53 @@
+
+.addCarreraBody [name="numero"] {
+    width: 30px;
+}
+
+.addCarreraBody [name="nomcab"] {
+    width: 250px;
+}
+
+.addCarreraBody [name="codigo"] {
+    width: 60px;
+}
+
+.addCarreraBody [name="distancia"] {
+    width: 70px;
+}
+
+.addCarreraBody [name="nomjin"] {
+    width: 230px;
+}
+
+.addCarreraBody [name="pesojin"] {
+    width: 50px;
+}
+
+.addCarreraBody [name="dividendo"] {
+    width: 120px;
+}
+
+.addCarreraBody [name="p1000"],
+.addCarreraBody [name="p300"],
+.addCarreraBody [name="pfinal"],
+.addCarreraBody [name="cuerpos"] {
+    width: 50px;
+}
+
+.addCarreraBody [name="tiempog"],
+.addCarreraBody [name="tiempoe"] {
+    width: 100px;
+}
+
+.addCarreraBody [name="rating"] {
+    width: 50px;
+}
+
+.addCarrereButtons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addCarrereButtons button {
+    width: 80px;
+}

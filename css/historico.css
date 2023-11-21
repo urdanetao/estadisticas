@@ -1,0 +1,209 @@
+
+.historicoBody {
+    width: 100%;
+    height: calc(100vh - 85px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.historicoBody [name="distancia"] {
+    width: 60px;
+}
+
+.itemTitleLine {
+    display: flex;
+    font-size: 10px;
+}
+
+.itemTitleLine > div {
+    background-color: #888;
+    color: #fff;
+}
+
+.titleJinetePeso {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleCodigo {
+    width: 34px;
+}
+
+.titleFecha {
+    width: 60px;
+    padding-left: 5px;
+}
+
+.titleDistancia {
+    width: 28px;
+}
+
+.titleJinete {
+    width: 80px;
+}
+
+.titlePeso {
+    width: 20px;
+}
+
+.titleDividendo {
+    width: 45px;
+}
+
+.title1000300 {
+    width: 50px;
+}
+
+.titlePFinal {
+    width: 24px;
+}
+
+.titleCuerpos {
+    width: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleTiempoG, .titleTiempoE {
+    width: 38px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleRating {
+    width: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.historicoNoData {
+    background-color: red;
+    color: #fff;
+}
+
+.debutanteBox {
+    width: 477px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.debutanteBox span {
+    font-size: 22px;
+}
+
+.primero {
+    background-color: #34a853;
+    color: #fff;
+    padding: 0px 2px;
+}
+
+.alerta {
+    background-color: red;
+    color: #fff;
+    padding: 0px 2px;
+}
+
+.itemLineDetailLine {
+    display: flex;
+}
+
+.itemLineDetailLine:hover {
+    cursor: pointer;
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.colCodigo {
+    width: 34px;
+}
+
+.colFecha {
+    width: 60px;
+    padding-left: 5px;
+}
+
+.colDistancia {
+    width: 28px;
+}
+
+.colNomJin {
+    width: 80px;
+}
+
+.colPesoJin {
+    width: 20px;
+}
+
+.colDividendo {
+    width: 45px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.colP1000, .colP300 {
+    width: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.colPFinal {
+    width: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.colPFinal span {
+    font-weight: bold;
+}
+
+.colCuerpos {
+    display: flex;
+    justify-content: flex-end;
+    width: 34px;
+    padding-right: 5px;
+}
+
+.colTiempoG, .colTiempoE {
+    display: flex;
+    justify-content: flex-end;
+    width: 38px;
+    padding-right: 5px;
+}
+
+.colRating {
+    display: flex;
+    justify-content: center;
+    width: 26px;
+}
+
+.colRating span {
+    font-weight: bold;
+}
+
+.itemLineDetailBox {
+    border: solid 1px #ddd;
+    height: 100%;
+    line-height: 1;
+    font-size: 10px;
+}
+
+.historicoTablaResumen {
+    width: 100%;
+}
+
+.historicoRowTitle div {
+    background-color: #888;
+    padding: 0px 3px;
+}
+
+.historicoRowTitle span {
+    color: #fff;
+}
+
+.historicoRowData div {
+    display: flex;
+    justify-content: center;
+}

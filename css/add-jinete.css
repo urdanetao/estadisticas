@@ -1,0 +1,13 @@
+
+.addJineteBody [name="nombre"] {
+    width: 250px;
+}
+
+.addJineteButtons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addJineteButtons button {
+    width: 80px;
+}

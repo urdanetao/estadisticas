@@ -1,0 +1,707 @@
+
+.jornadasBody {
+    width: 100%;
+    height: calc(100vh - 85px);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* ----------------------------------------------- */
+
+.jornadasBody [name="descrip"] {
+    width: 200px;
+}
+
+.jornadasBody [name="codigo"] {
+    width: 80px;
+}
+
+.jornadasBody [name="distancia"] {
+    width: 80px;
+}
+
+.jornadasBody [name="algo"] {
+    width: 150px;
+}
+
+/* ----------------------------------------------- */
+
+.itemTitleLine {
+    display: flex;
+    font-size: 10px;
+}
+
+.itemTitleLine > div {
+    background-color: #888;
+    color: #fff;
+}
+
+.titleNumero {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleEjemplar {
+    width: 150px;
+    padding-left: 5px;
+}
+
+.titleJinetePeso {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleCodigo {
+    width: 34px;
+}
+
+.titleFecha {
+    width: 60px;
+    padding-left: 5px;
+}
+
+.titleDistancia {
+    width: 28px;
+}
+
+.titleJinete {
+    width: 80px;
+}
+
+.titlePeso {
+    width: 20px;
+}
+
+.titleDividendo {
+    width: 45px;
+}
+
+.title1000300 {
+    width: 50px;
+}
+
+.titlePFinal {
+    width: 24px;
+}
+
+.titleCuerpos {
+    width: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleTiempoG, .titleTiempoE {
+    width: 38px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleRating {
+    width: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------------------------- */
+
+.jornadasColumnTitleBox {
+    display: flex;
+    justify-content: center;
+    background-color: #4285F4;
+    padding: 5px 0px;
+}
+
+.jornadasColumnTitleBox span {
+    color: #fff;
+}
+
+.jornadasListBox {
+    width: 200px !important;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+}
+
+.jornadasAddButtonBox {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jornadasList {
+    width: 100%;
+    height: calc(100vh - 180px);
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0px 10px;
+}
+
+/* Barra de scroll */
+.jornadasList::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.jornadasList::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.jornadasList::-webkit-scrollbar-button:increment,.jornadasList::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.jornadasList::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.jornadasList::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.jornadasList::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.jornadaItem {
+    background-color: #4285F4;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    height: 80px;
+}
+
+.jornadaItemSelected {
+    background-color: #1f1f1f;
+}
+
+.competenciaItemSelected{
+    background-color: #1f1f1f !important;
+}
+
+.jornadaItem:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
+}
+
+.jornadaItemFechaBox span {
+    font-size: 12px;
+}
+
+.jornadaItemDescripBox {
+    font-size: 12px;
+}
+
+.competenciasColumnTitleBox {
+    display: flex;
+    justify-content: center;
+    background-color: #34A853;
+    padding: 5px 0px;
+}
+
+.competenciasColumnTitleBox span {
+    color: #fff;
+}
+
+.competenciasListBox {
+    width: 200px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+}
+
+.competenciasAddButtonBox {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.competenciasList {
+    width: 100%;
+    height: calc(100vh - 180px);
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0px 10px;
+}
+
+/* Barra de scroll */
+.competenciasList::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.competenciasList::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.competenciasList::-webkit-scrollbar-button:increment,.competenciasList::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.competenciasList::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.competenciasList::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.competenciasList::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.competenciasItem {
+    background-color: #34A853;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    height: 80px;
+}
+
+.competenciasItem:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
+}
+
+.competenciaTitleBox span {
+    font-size: 12px;
+}
+
+.competenciaItemDescripBox {
+    font-size: 12px;
+}
+
+.detailColumnTitleBox {
+    display: flex;
+    justify-content: center;
+    background-color: #812ce2;
+    padding: 5px 0px;
+    width: calc(100vw - 400px);
+}
+
+.detailColumnTitleBox span {
+    color: #fff;
+}
+
+.detailColumnBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.detailAddButtonBox {
+    /* width: 100%; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailList {
+    width: 100%;
+    max-height: calc(100vh - 200px);
+    height: calc(100vh - 200px);
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0px 10px;
+}
+
+/* Barra de scroll */
+.detailList::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.detailList::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.detailList::-webkit-scrollbar-button:increment,.detailList::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.detailList::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.detailList::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.detailList::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.itemLine {
+    width: 100%;
+    height: 45px;
+    display: flex;
+}
+
+.itemLineNumero {
+    width: 30px;
+    height: 100%;
+    border: solid 1px #ddd;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemLineNumero:hover {
+    cursor: pointer;
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.itemLineNumero:hover ~.grupoDetalleCompetencia {
+    background-color: #ddd;
+}
+
+.itemLineHorseName {
+    border: solid 1px #ddd;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding: 0px 5px;
+    position: relative;
+}
+
+.itemLineHorseName span {
+    font-size: 13px;
+}
+
+.itemLineHorsePuntos {
+    position: absolute;
+    top: -6px;
+    left: 3px;
+}
+
+.itemLineHorsePuntos > span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.itemLineHorseEfectividad {
+    position: absolute;
+    top: -6px;
+    right: 3px;
+}
+
+.itemLineHorseEfectividad > span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.itemLineHorseDiasSinCorrer {
+    position: absolute;
+    bottom: -2px;
+    left: 5px;
+}
+
+.itemLineHorseDiasSinCorrer > span {
+    font-size: 10px;
+    /* font-weight: bold; */
+}
+
+.itemLineHorseTiempoRating {
+    position: absolute;
+    bottom: -2px;
+    right: 3px;
+}
+
+.itemLineHorseTiempoRating > span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.itemLineJinetePeso {
+    width: 80px;
+    height: 100%;
+    border: solid 1px #ddd;
+    padding: 0px 5px;
+}
+
+.mejorTiempoRating {
+    background-color: #34A853;
+    color: #fff;
+    padding: 0px 2px;
+}
+
+.itemLineNomJin {
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.itemLineNomJin span {
+    font-size: 9px;
+}
+
+.itemLineNomPrep {
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.itemLineNomPrep span {
+    font-size: 9px;
+}
+
+.itemLinePesoJin {
+    display: flex;
+    justify-content: center;
+}
+
+.itemLinePesoJin span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.detailBox {
+    width: calc(100vw - 400px);
+}
+
+.itemLineDetailBox {
+    border: solid 1px #ddd;
+    height: 100%;
+    line-height: 1;
+    font-size: 10px;
+}
+
+.itemLineDetailLine {
+    display: flex;
+}
+
+.itemLineDetailLine:hover {
+    cursor: pointer;
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.colCodigo {
+    width: 34px;
+}
+
+.colFecha {
+    width: 60px;
+    padding-left: 5px;
+}
+
+.colDistancia {
+    width: 28px;
+}
+
+.colNomJin {
+    width: 80px;
+}
+
+.colPesoJin {
+    width: 20px;
+}
+
+.colDividendo {
+    width: 45px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.colP1000, .colP300 {
+    width: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.colPFinal {
+    width: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.colPFinal span {
+    font-weight: bold;
+}
+
+.colCuerpos {
+    display: flex;
+    justify-content: flex-end;
+    width: 34px;
+    padding-right: 5px;
+}
+
+.colTiempoG, .colTiempoE {
+    display: flex;
+    justify-content: flex-end;
+    width: 38px;
+    padding-right: 5px;
+}
+
+.colRating {
+    display: flex;
+    justify-content: center;
+    width: 26px;
+}
+
+.colRating span {
+    font-weight: bold;
+}
+
+.jornadasNoData {
+    background-color: rgb(240, 77, 77);
+    color: #fff;
+}
+
+/* ------------------------------------- */
+
+.debutanteBox {
+    width: 477px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.debutanteBox span {
+    font-size: 22px;
+}
+
+.itemButtonsBox {
+    height: 45;
+    display: flex;
+    align-items: center;
+}
+
+.numcabBox {
+    width: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+.nomcabBox {
+    width: 250px;
+}
+
+.valorBox {
+    width: 40px;
+}
+
+.graficaResultadosBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.graficaBox {
+    width: 700px;
+}
+
+.primero {
+    background-color: #34a853;
+    color: #fff;
+    padding: 0px 2px;
+}
+
+.warning {
+    background-color: #ffc107;
+    color: #000;
+    padding: 0px 2px;
+}
+
+.alerta {
+    background-color: red;
+    color: #fff;
+    padding: 0px 2px;
+}
+
+.puntos {
+    background-color: purple;
+    color: #fff;
+    padding: 0px 2px;
+}
+
+.resaltado {
+    background-color: #000;
+    color: #fff;
+    padding: 0px 2px;
+}
+
+/* ------------------------------------- */
+/* Informacion de terceros               */
+/* ------------------------------------- */
+.infoTercerosItem {
+    margin-right: 20px;
+}
+
+.infoTercerosItem > fieldset {
+    width: 183px;
+}
+
+.informacion {
+    padding: 0px 10px 10px 10px;
+    display: none;
+}
+
+.informacion > fieldset {
+    height: 280px;
+}
+
+.infoTercerosBox {
+    display: flex;
+    overflow-x: auto;
+}
+
+/* Barra de scroll */
+.infoTercerosBox::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.infoTercerosBox::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.jornadasList::-webkit-scrollbar-button:increment,.infoTercerosBox::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.infoTercerosBox::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.infoTercerosBox::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.infoTercerosBox::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.txbInfoTerceros {
+    width: 100px;
+}
+
+.txbInfoTercerosMarca {
+    color: #fff;
+    background-color: #32a852;
+}
+
+/* Mejor tiempo registrado para la distancia. */
+[name="mtDistancia"], [name="mtTiempoG"], [name="mtRating"] {
+    width: 50px;
+}
+
+[name="ptDistancia"], [name="ptTiempoG"], [name="ptRating"] {
+    width: 50px;
+}

@@ -1,0 +1,8 @@
+
+.addJornadasButtons button {
+    width: 80px;
+}
+
+.addJornadasBody [name="descrip"] {
+    width: 250px;
+}

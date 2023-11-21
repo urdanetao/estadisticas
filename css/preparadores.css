@@ -1,0 +1,21 @@
+
+.preparadoresBody {
+    width: 100%;
+    height: calc(100vh - 85px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.commandButtons {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    background-color: #812ce2;
+}
+
+.preparadoresBody [name="nombre"] {
+    width: 250px;
+}

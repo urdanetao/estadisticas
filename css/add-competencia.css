@@ -1,0 +1,13 @@
+
+.addCompetenciasButtons button {
+    width: 80px;
+}
+
+.addCompetenciasBody [name="descrip"] {
+    width: 250px;
+}
+
+.addCompetenciasBody [name="codigo"],
+.addCompetenciasBody [name="distancia"] {
+    width: 75px;
+}

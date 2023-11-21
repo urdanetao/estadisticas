@@ -1,0 +1,13 @@
+
+.addPreparadorBody [name="nombre"] {
+    width: 250px;
+}
+
+.addPreparadorButtons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addPreparadorButtons button {
+    width: 80px;
+}

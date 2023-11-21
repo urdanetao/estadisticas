@@ -1,0 +1,13 @@
+
+.addInfoTercerosButtonsBox button {
+    width: 80px;
+}
+
+.addInfoTercerosBody [name="c1"],
+.addInfoTercerosBody [name="c2"],
+.addInfoTercerosBody [name="c3"],
+.addInfoTercerosBody [name="c4"],
+.addInfoTercerosBody [name="c5"],
+.addInfoTercerosBody [name="c6"] {
+    width: 120px;
+}

@@ -1,0 +1,13 @@
+
+.addCaballoBody [name="nombre"] {
+    width: 250px;
+}
+
+.addCaballoButtons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addCaballoButtons button {
+    width: 80px;
+}
